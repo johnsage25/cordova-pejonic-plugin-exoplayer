@@ -5,13 +5,13 @@ Cordova media player plugin using Google's ExoPlayer framework.
 
 Please send us links to your cool projects made with this plugin so we can include them on this page!
 
-## Changes in version 2.5.3
+## Changes in version 2.5.5
 - After observing performance issues removing the usage of okhttp.
 - Removing the 'android.hardware.touchscreen' check before adding touch handler. This feature is not reliably reported by various devices. 
 - Google Chrome Cast (GMS)
-- Video Quality Control button from the view screen
-- Language Button from the video screen
-- Subtile Control from view screen
+- Video quality control button from the view screen
+- Language button from the video screen
+- Subtile control from view screen
 - DASH Format added
 
 
