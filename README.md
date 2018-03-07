@@ -1,4 +1,4 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) [![Build Status](https://travis-ci.org/frontyard/cordova-plugin-exoplayer.svg?branch=2.0.0)](https://travis-ci.org/frontyard/cordova-plugin-exoplayer) [![Code Climate](https://codeclimate.com/github/frontyard/cordova-plugin-exoplayer/badges/gpa.svg)](https://codeclimate.com/github/frontyard/cordova-plugin-exoplayer) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2ZPEB7VKFG2CY)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) [![Build Status]()](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://pejonic.com/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CM9SD8PQ8NRK8&lc=US&item_name=Pejonic&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 # Cordova ExoPlayer Plugin
 
@@ -10,48 +10,6 @@ Please send us links to your cool projects made with this plugin so we can inclu
 - After observing performance issues removing the usage of okhttp.
 - Removing the 'android.hardware.touchscreen' check before adding touch handler. This feature is not reliably reported by various devices. 
 
-## Changes in version 2.5.2
-- Upgraded exoplayer to version 2.5.1
-- Only adding touchscreen event handler if device has "android.hardware.touchscreen" system feature.
-- Added `connectTimeout`, `readTimeout` and `retryCount` configuration settings. These are related to http client player uses. 
-- Added `seekBy` which is simmilar to seekTo but operates relative to the current possition. Value can be positive (seek forward) or negative (seek backwards). 
-
-## Changes in version 2.5.1
-- Added boolean options `hidePosition` and `hideDuration`. When playing dvr content thise numbers are relative to current time and very confusing to users. Adding ability to hide the numbers until better solution can be found.
-- Added `autoPlay` (defaults to true) to allow user not to play the stream automatically. Must call `play` explicitly.
-
-## Changes in version 2.5.0
-- Removed configuration setting `skipTime` and replaced it with separate `forwardTime` and `rewindTime`.
-- Sending `TIMELINE_EVENT` to Cordova with `periodDurationX` and `periodWindowPositionX` properties for duration and window position for each period (marked X) in the stream.  
-
-## Changes in version 2.4.5
-- Added `setController` method to update the controller mid-stream. It accepts the same controller object that is used as part of parameters for `show` method.
-
-## Changes in version 2.4.4
-- Added `stop` method to fully stop the stream but not realease the player. Call `setStream` to restart the playback or `close` to dispose of it.
-
-## Changes in version 2.4.2
-- Plugin no longer acts on audio focus event but rather let's Cordova app decide what to do.
-
-## Changes in version 2.4.1
-- When audio focus changes, plugin will send `AUDIO_FOCUS_EVENT` with parameter `audioFocus` that can be on of:
- `AUDIOFOCUS_LOSS_TRANSIENT`, `AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK`, `AUDIOFOCUS_GAIN`, `AUDIOFOCUS_LOSS`. 
-
-## Changes in version 2.4.0
-- Controller will no longer show automatically on touch and key events.
-- Added showController and hideController methods for explicit control of controller visibility.
-- Plugin will not longer close on KEYCODE_BACK key event, please call .close() explicitly.
-- Plugin will request audio focus on startup. It will also listen for audio focus events and pause/play on those events. It will close on AUDIOFOCUS_LOSS. 
-- START_EVENT will return additional info `audioFocus` which can be AUDIOFOCUS_REQUEST_FAILED or AUDIOFOCUS_REQUEST_GRANTED.
-- STATE_EVENT will return additional info `controllerVisible` to tell the app if controller is visible or not.
-
-## Changes in version 2.3.0
-
-- Renamed plugin's namespace from window.exoplayer to window.ExoPlayer
-- Removed `init` method as there is no need to keep instance of the plugin around. Just call methods directly on window.ExoPlayer
-- `show` now takes configuration parameters as the first argumeent since we don't need init any more.
-- Renamed `playOffset` configuration setting to `seekTo` to match the coresponding method that does the same thing
-- Replaced `play` and `pause` methods with single `playPause` that does both and keeps track of playback status
 
 ## Using
 
@@ -227,4 +185,4 @@ ExoPlayer [source code](https://github.com/google/ExoPlayer)
 ## Donation
 If this project helps you consider donating to support it!
 
-[![paypal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2ZPEB7VKFG2CY)
+[![paypal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CM9SD8PQ8NRK8&lc=US&item_name=Pejonic&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
