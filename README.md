@@ -24,7 +24,7 @@ Create a new Cordova Project
 Install the plugin
 
     $ cd hello
-    $ cordova plugin add cordova-plugin-exoplayer
+    $ cordova plugin add cordova-pejonic-plugin-exoplayer
     
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
