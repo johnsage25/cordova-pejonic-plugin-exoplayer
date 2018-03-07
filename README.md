@@ -8,6 +8,11 @@ Please send us links to your cool projects made with this plugin so we can inclu
 ## Changes in version 2.5.3
 - After observing performance issues removing the usage of okhttp.
 - Removing the 'android.hardware.touchscreen' check before adding touch handler. This feature is not reliably reported by various devices. 
+- Google Chrome Cast (GMS)
+- Video Quality Control button from the view screen
+- Language Button from the video screen
+- Subtile Control from view screen
+- DASH Format added
 
 
 ## Using
