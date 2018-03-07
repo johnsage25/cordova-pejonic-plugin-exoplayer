@@ -1,4 +1,4 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) [![Build Status]()](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://pejonic.com/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CM9SD8PQ8NRK8&lc=US&item_name=Pejonic&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) [![Build Status]](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)][![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CM9SD8PQ8NRK8&lc=US&item_name=Pejonic&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 # Cordova ExoPlayer Plugin
 
