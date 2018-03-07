@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="cordova-pejonic-plugin-exoplayer"
-        version="2.5.5">
+        version="2.5.7">
 
     <name>ExoPlayer</name>
     <description>Cordova Plugin implementing ExoPlayer video/audio player</description>
@@ -19,11 +19,10 @@
     </js-module>
 
     <platform name="android">
-        <framework src="com.google.android.exoplayer:exoplayer:r2.7.0"/>
+        <framework src="com.google.android.exoplayer:exoplayer:r2.5.2"/>
         <framework src="com.android.support:customtabs:23.3.0"/>
         <framework src="com.squareup.picasso:picasso:2.5.2"/>
         <framework src="com.android.support:support-v4:24.1.1+"/>
-        <framework src="com.google.android.gms:play-services-cast-framework:10.2.0"/>
         <framework src="com.googlecode.android-query:android-query:0.25.9"/>
         <framework src="com.android.support:recyclerview-v7:23.4.0"/>
         <framework src="com.android.support:mediarouter-v7:25.2.0"/>
@@ -42,18 +41,8 @@
         <source-file src="src/res/layout/list_divider.xml" target-dir="res/layout/"/>
         <source-file src="src/res/layout/track_selection_dialog.xml" target-dir="res/layout/"/>
 
-        <source-file src="src/res/drawable/hplib_ic_unlock.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_subtitle.xml" target-dir="res/drawable/"/>
         <source-file src="src/res/drawable/hplib_ic_settings.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_rewind.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_previous.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_play_download.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_pause.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_next.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_lock.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_forward.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_chromecast.xml" target-dir="res/drawable/"/>
-        <source-file src="src/res/drawable/hplib_ic_back.xml" target-dir="res/drawable/"/>
+
 
         <source-file src="src/android/CallbackResponse.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/Configuration.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
@@ -68,5 +57,8 @@
         <source-file src="src/android/ExpandedControlsActivity.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/TrackSelectionHelper.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/Util.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
+
+        
+
     </platform>
 </plugin>

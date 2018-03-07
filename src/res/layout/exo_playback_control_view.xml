@@ -79,33 +79,7 @@
                      android:scaleType="centerInside"
                      android:background="#00000000"
                      style="@style/ExoMediaButton.Next"/-->
-        <ImageButton
-            android:id="@+id/exo_prev"
 
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:layout_gravity="center"
-            android:background="#00000000"
-            android:adjustViewBounds="true"
-            android:scaleType="centerInside"
-            android:src="@drawable/hplib_ic_lock" />
-
-
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:layout_weight="0.23"
-            android:adjustViewBounds="true"
-            android:background="#00000000"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:scaleType="centerInside"
-            android:src="@drawable/hplib_ic_chromecast" />
     </LinearLayout>
 
     <!-- Buttom info bar -->

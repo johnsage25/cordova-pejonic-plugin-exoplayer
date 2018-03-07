@@ -8,4 +8,14 @@
     <item name="exo_settings" type="id"/>
     <item name="btn_subtitle" type="id"/>
     <item name="btn_audio" type="id"/>
+    <string name="video">Video</string>
+
+    <string name="audio">Audio</string>
+
+    <string name="text">Text</string>
+
+    <string name="enable_random_adaptation">Enable random adaptation</string>
+    <string name="selection_disabled">Disabled</string>
+
+    <string name="selection_default">Default</string>
 </resources>

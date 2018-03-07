@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-exoplayer",
-  "version": "2.5.3",
+  "name": "cordova-pejonic-plugin-exoplayer",
+  "version": "2.5.7",
   "description": "Media player for Cordova using Google's ExoPlayer framework",
   "cordova": {
-    "id": "cordova-plugin-exoplayer",
+    "id": "cordova-pejonic-plugin-exoplayer",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pejonic/cordova-plugin-exoplayer.git"
+    "url": "git+https://github.com/pejonic/cordova-pejonic-plugin-exoplayer.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -33,9 +33,9 @@
   "author": "John Sage Nwanosike",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pejonic/cordova-plugin-exoplayer/issues"
+    "url": "https://github.com/pejonic/cordova-pejonic-plugin-exoplayer/issues"
   },
-  "homepage": "https://github.com/pejonic/cordova-plugin-exoplayer#readme",
+  "homepage": "https://github.com/pejonic/cordova-pejonic-plugin-exoplayer#readme",
   "devDependencies": {
     "jshint": "^2.9.0"
   }
