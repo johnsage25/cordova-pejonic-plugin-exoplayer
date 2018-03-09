@@ -83,7 +83,6 @@ import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 import com.google.android.exoplayer2.upstream.HttpDataSource;
 import com.google.android.exoplayer2.util.MimeTypes;
 import com.google.android.exoplayer2.util.Util;
-import com.google.android.gms.cast.framework.CastContext;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaWebView;
@@ -91,7 +90,6 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONObject;
 
 public class Player {
-    private CastContext castContext;
     private ImageButton btn_lock;
     public static final String TAG = "ExoPlayerPlugin";
     private Activity activity;
