@@ -1,6 +1,6 @@
 {
   "name": "cordova-pejonic-plugin-exoplayer",
-  "version": "2.5.7",
+  "version": "2.5.9",
   "description": "Media player for Cordova using Google's ExoPlayer framework",
   "cordova": {
     "id": "cordova-pejonic-plugin-exoplayer",

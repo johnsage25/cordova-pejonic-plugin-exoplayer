@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="cordova-pejonic-plugin-exoplayer"
-        version="2.5.7">
+        version="2.5.8">
 
     <name>ExoPlayer</name>
     <description>Cordova Plugin implementing ExoPlayer video/audio player</description>
@@ -50,11 +50,6 @@
         <source-file src="src/android/Payload.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/Player.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/Plugin.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
-        <source-file src="src/android/CastTimeline.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
-        <source-file src="src/android/CastTimelineTracker.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
-        <source-file src="src/android/CastUtils.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
-        <source-file src="src/android/DefaultCastOptionsProvider.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
-        <source-file src="src/android/ExpandedControlsActivity.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/TrackSelectionHelper.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
         <source-file src="src/android/Util.java" target-dir="src/co/pejonic/cordova/plugin/exoplayer/"/>
 

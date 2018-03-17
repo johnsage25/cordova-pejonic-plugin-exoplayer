@@ -5,14 +5,14 @@ Cordova media player plugin using Google's ExoPlayer framework.
 
 Please send us links to your cool projects made with this plugin so we can include them on this page!
 
-## Changes in version 2.5.7
+## Changes in version 2.5.9
 - After observing performance issues removing the usage of okhttp.
 - Removing the 'android.hardware.touchscreen' check before adding touch handler. This feature is not reliably reported by various devices. 
-- Google chrome Cast (GMS)
+
 - Video quality Control button from the view screen
 - Language button from the video screen
 - Subtile control from view screen
-
+- If you notice an R attribute error import R class to your project to fix it.
 
 ## Using
 
@@ -188,4 +188,6 @@ ExoPlayer [source code](https://github.com/google/ExoPlayer)
 ## Donation
 If this project helps you consider donating to support it!
 
-[![paypal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CM9SD8PQ8NRK8&lc=US&item_name=Pejonic&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+Please donate using Skrill pejonic@gmail.com 
+www.skrill.com
+Thanks
